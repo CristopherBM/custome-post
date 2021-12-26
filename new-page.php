@@ -29,6 +29,6 @@ array(
 )
 );
 }
-add_action( 'init', 'create_postType_ postname' );
+add_action( 'init', 'create_postType_postname' );
 
 ?>
