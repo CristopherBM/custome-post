@@ -1,7 +1,3 @@
-<!-- This needs to be add on the theme function.php -->
-
-<!-- please replace post name - to the name taht you want -->
-
 <?php
 function create_postType_sermon() {
 register_post_type( 'Add your post name',
