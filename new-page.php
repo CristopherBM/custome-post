@@ -1,26 +1,28 @@
 <!-- This needs to be add on the theme function.php -->
 
+<!-- please replace post name - to the name taht you want -->
 
+<?php
 function create_postType_sermon() {
-register_post_type( 'sermons',
+register_post_type( 'Add your post name',
 array(
 'labels' => array(
-'name' => 'sermons',
-'singular_name' => 'sermon',
-'add_new' => 'Add New sermon',
-'add_new_item' => 'Add New sermon',
+'name' => ' post name',
+'singular_name' => ' post name',
+'add_new' => 'Add New  post name',
+'add_new_item' => 'Add New  post name',
 'edit' => 'Edit',
-'edit_item' => 'Edit sermon',
-'new_item' => 'New sermon',
+'edit_item' => 'Edit  post name',
+'new_item' => 'New  post name',
 
-'search_items' => 'Search sermons',
-'not_found' => 'No sermons found',
-'not_found_in_trash' => 'No sermons found in Trash',
-'parent' => 'Parent sermon'
+'search_items' => 'Search  post name',
+'not_found' => 'No  post name found',
+'not_found_in_trash' => 'No  post name found in Trash',
+'parent' => 'Parent  post name'
 ),
 'supports'=> array(
 'title', 'editor', 'thumbnail','custom-fields', ),
-'taxonomies' => array('sermon_categories','post_tag'), // if you don't have custom taxonomy comment out this line.
+'taxonomies' => array(' postname_categories','post_tag'), // if you don't have custom taxonomy comment out this line.
 'public' => true,
 'capability_type' => 'post',
 
@@ -31,4 +33,6 @@ array(
 )
 );
 }
-add_action( 'init', 'create_postType_sermon' );
+add_action( 'init', 'create_postType_ postname' );
+
+?>
