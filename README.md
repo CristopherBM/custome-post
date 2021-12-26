@@ -4,5 +4,5 @@ Allow to create a Custom Post
 
  This needs to be add on the theme function.php
 
-Please replace post name - to the name taht you want 
+Please replace post name - to the name that you want 
 
